@@ -3,23 +3,23 @@
   "repository": "https://github.com/skobkars/lvconnect",
   "env": {
     "API_SECRET": {
-      "description": "This must match the API_SECRET password from your Nightscout website.",
-      "value": "",
+      "description": "api secret",
+      "value": "thisismysecretmyscret",
       "required": true
     },
     "WEBSITE_HOSTNAME": {
-      "description": "The host name for your Nightscout website.  Example: sitename.herokuapp.com or sitename.azurewebsites.net.  Do not include http:// or https://",
-      "value": "",
+      "description": "nightscoutaanth.azurewebsites.net",
+      "value": "nightscoutaanth.azurewebsites.net",
       "required": true
     },
     "NS": {
-      "description": "A fully-qualified Nightscout URL (e.g. https://sitename.herokuapp.com) which overrides WEBSITE_HOSTNAME",
-      "value": "",
+      "description": "https://nightscoutaanth.azurewebsites.net",
+      "value": "https://nightscoutaanth.azurewebsites.net",
       "required": false
     },
     "LVCONNECT_SERVER": {
-      "description": "LibreView api website. ['EU', 'US', or any actual hostname]. Blank value can be used to get redirect LibreView servers in the US. Set to (EU) to fetch from servers outside of US from the beginning.",
-      "value": "",
+      "description": "EU",
+      "value": "EU",
       "required": true
     },
     "LVCONNECT_PRO_USER_NAME": {
@@ -38,13 +38,13 @@
       "required": false
     },
     "LVCONNECT_USER_NAME": {
-      "description": "Personal account email for the Pro LibreView service. Overrides LVCONNECT_PRO_USER_NAME. Can be left empty if Pro account is used",
-      "value": "",
+      "description": "itsaanth@icloud.com",
+      "value": "itsaanth@icloud.com",
       "required": false
     },
     "LVCONNECT_PASSWORD": {
-      "description": "Personal password for the Pro LibreView service. Overrides LVCONNECT_PRO_PASSWORD. Can be left empty if Pro account is used",
-      "value": "",
+      "description": "password",
+      "value": "Rich2089!frep",
       "required": false
     },
     "LVCONNECT_TRUSTED_DEVICE_TOKEN": {
